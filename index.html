@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <title>Awesome Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body  dir="rtl" lang="ar">
+    <div class="container">
+        <!-- start Quiz button -->
+        <div class="start_btn">
+            <button>
+                <b>
+                    جاهزة يا حاجة؟
+                </b>
+            </button>
+        </div>
+
+        <!-- Info Box -->
+        <div class="info_box">
+            <div class="info-title"><span>  شروط اللعبة:</span></div>
+            <div class="info-list">
+                <div class="info">1. معاك<span> 10 ثوانى </span>فى كل سؤال.</div>
+                <div class="info">2. مفيش رجعة فى الاجابات.</div>
+                <div class="info">3. خلى بالك من الوقت.</div>
+                <div class="info">4. لو اللعبة بدئت مفيش خروج.</div>
+                <div class="info">5. لو جاوبت صح هتكسب ههه (حماده هلال).</div>
+            </div>
+            <div class="buttons">
+                <button class="restart">
+                    جاهزة يابنى
+                </button>
+                <button class="quit">
+                    طب مش لاعبة
+                </button>
+
+            </div>
+        </div>
+
+        <!-- Quiz Box -->
+        <div class="quiz_box">
+            <header>
+                <div class="title">شوية أسئلة شقية:</div>
+                <div class="timer">
+                    <div class="time_leftس_txt">فاضل</div>
+                    <div class="timer_sec">10</div>
+                    ثانية
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                    <!-- Here I've inserted question from JavaScript -->
+                </div>
+                <div class="option_list">
+                    <!-- Here I've inserted options from JavaScript -->
+                </div>
+            </section>
+
+            <!-- footer of Quiz Box -->
+            <footer>
+                <div class="total_que">
+                    <!-- Here I've inserted Question Count Number from JavaScript -->
+                </div>
+                <button class="next_btn">اللى بعده</button>
+            </footer>
+        </div>
+
+        <!-- Result Box -->
+        <div class="result_box">
+            <!-- <div class="complete_text">خلاص جبرت كده</div> -->
+            <div class="score_text">
+                <!-- Here I've inserted Score Result from JavaScript -->
+            </div>
+            <div class="buttons">
+                <button class="quit">كفاية بجى</button>
+                <button class="restart">كمان مرة</button>
+            </div>
+        </div>
+
+    </div>
+ 
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+</html>
+
