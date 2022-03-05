@@ -158,7 +158,7 @@ function showResult(){
         let scoreTag = '<span> حقا انتى شيماء ههه</span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     } else {
-        let scoreTag = '<span>ارقوق رجعلنا حجوج</span>'
+        let scoreTag = '<span>ارقوق ياباشا رجعلنا حجوج</span>'
         scoreText.innerHTML = scoreTag;
     }
 }
